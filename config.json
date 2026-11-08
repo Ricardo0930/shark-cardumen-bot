@@ -1,0 +1,17 @@
+{
+  "websocket_url": "wss://stream.binance.com:9443/stream",
+  "symbols": ["BTCUSDT", "DOGEUSDT", "PEPEUSDT", "SHIBUSDT"],
+  "btc_threshold_percent": 0.5,
+  "btc_volume_ratio": 1.5,
+  "btc_window_seconds": 60,
+  "reference_minutes": 60,
+  "observation_seconds": 300,
+  "min_reaction_percent": 0.05,
+  "btc_reversion_percent": 0.10,
+  "max_reference_age_seconds": 5,
+  "reconnect_initial_seconds": 1,
+  "reconnect_max_seconds": 30,
+  "output_csv": "data/events.csv",
+  "demo_mode": true,
+  "demo_trading_enabled": false
+}
